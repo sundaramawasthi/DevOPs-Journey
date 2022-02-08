@@ -19,6 +19,7 @@ f = 0
 # global and local variable in function
 
 def somefunction():  # declare function def whose name is somefunction
+    global f
     f = "def"  # declare variable f =def in function
     print(f)     # print the f value
 
