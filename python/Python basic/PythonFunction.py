@@ -7,4 +7,4 @@ def fun1():  # function are define using def keyword then func name then colon t
 
 fun1()  # function call by directly
 print(fun1())  # function print using print
-print(fun1)
+print(fun1)  # function not call

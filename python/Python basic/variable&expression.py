@@ -27,5 +27,5 @@ def somefunction():  # declare function def whose name is somefunction
 somefunction()   # call the somefunction
 print(f)         # print the f value
 
-del(f)  # the del variable delete the difinition of variable f that are privious declare
+del(f)  # the del delete the difinition of variable f that are privious declare
 print(f)
