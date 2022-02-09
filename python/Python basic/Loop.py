@@ -19,6 +19,19 @@ day = ['mon', 'twe', 'wed']
 for d in day:
     print(d)
 
+# use break and contineoous
+for x in range(5, 10):
+    # if(x == 7):
+    # break
+    if(x % 2 == 0):
+        continue
+    print(x)
+
+#
+
+day = ['mon', 'twe', 'wed']
+for i, d in enumerate(day):
+    print(i, d)
 
 if __name__ == "__main__":
     main()
