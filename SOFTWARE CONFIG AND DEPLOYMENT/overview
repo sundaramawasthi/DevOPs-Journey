@@ -1,0 +1,38 @@
+What is Configuration managememnt -
+
+Configuration management is a automation technique .
+which let us manage congiguration of our computer at scale .
+
+What is scale -
+
+Being able to scale what we do means that we can keep achieving larger impacts with the same amount of effort when a system scales. Well an increase in the amount of work it needs to do can be accommodated by an increase in capacity.
+
+EXAMPLE -
+if the web application your company provides is scalable, that it can handle an increase in the number of people using it by adding more servers to serve requests. In short, a scalable system is a flexible one.
+
+Configuaration management -
+
+Configuration -
+When we say configuration here, we're talking about everything from the current operating system and the applications installed to any necessary configuration files or policies, including anything else that's relevant for the server to do its job.
+
+Configuration managed -
+It means using a configuration management system to handle all of the configuration of the devices in your fleet, also known as nodes.
+
+Configuration management systems aim to solve this scaling problem. By managing the configuration of a fleet with a system like this, large deployments become easier to work with because the system will deploy the configuration automatically no matter how many devices you're managing.
+
+A configuration management tool can take the rules you define and apply them to the systems that it manages, making changes efficient and consistent
+
+There are lots of configuration management systems available in the IT industry today. Some popular systems include Puppet, Chef, Ansible, and CFEngine. These tools can be used to manage locally hosted infrastructure.
+
+INFRASTURUCTURE AS A CODE -
+
+We've called out that when we use a configuration management system, we write rules that describe how the computers in our fleet should be configured
+These rules are then executed by the automation, to make the computers match our desired state. This means that we can model the behavior of our IT infrastructure in files that can be processed by automatic tools. These files can then be tracked in a version control system.
+
+The paradigm of storing all the configuration for the managed devices in version controlled files is known as Infrastructure as Code or IaC
+
+The principals of Infrastructure as Code are commonly applied in cloud computing environments, where machines are treated like interchangeable resources, instead of individual computers. This principle is also known as treating your computers as cattle instead of pets because you care for them as a group rather than individually
+
+One valuable benefit of this process is that the configuration applied to the device doesn't depend on a human remembering to follow all the necessary steps
+
+the configuration of our computers is stored in files, those files can be added to a VCS. This has all the benefits that version control systems bring. It gives us an audit trail of changes, it lets us quickly rollback if a change was wrong, it lets others reviewed our code to catch errors and distribute knowledge, it improves collaboration with the rest of the team, and it lets us easily check out the state of our infrastructure by looking at the rules that are committed.
