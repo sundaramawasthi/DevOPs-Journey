@@ -24,6 +24,8 @@ A configuration management tool can take the rules you define and apply them to 
 
 There are lots of configuration management systems available in the IT industry today. Some popular systems include Puppet, Chef, Ansible, and CFEngine. These tools can be used to manage locally hosted infrastructure.
 
+---
+
 INFRASTURUCTURE AS A CODE -
 
 We've called out that when we use a configuration management system, we write rules that describe how the computers in our fleet should be configured
